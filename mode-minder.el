@@ -77,6 +77,8 @@
 			syms))))
 
 (defvar mode-minder--warmed nil)
+
+;;;###autoload
 (defun mode-minder ()
   "Show heirarchy of all major and minor modes."
   (interactive)
